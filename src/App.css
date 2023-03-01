@@ -1,0 +1,123 @@
+.App{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.app-wrapper{
+  background-color: yellow;
+  box-shadow: 3px 6px 40px lime;
+  min-width: 400px;
+  min-height: 580px;
+  padding:30px;
+  border: 3px solid white;
+  border-radius: 15px;
+}
+.question-section-wrapper{
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+.question-count{
+  color: white;
+  font-size: 28px;
+  margin-bottom: 20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:5px;
+  border: 3px solid white;
+  border-radius: 15px;
+  background-color: purple;
+  width: 75%;
+  margin:20px auto;
+}
+.question{
+  color: white;
+  border: 2px solid yellow;
+  background-color: black;
+  border-radius: 5px;
+  padding:10px;
+  margin-bottom: 12px;
+  font-size: 24px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+.answer-section-wrapper{
+  background-color: brown;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.answer-list{
+  list-style: none;
+  width: 100%;
+  margin: 30px 0px 30px 0px;
+  display: flex ;
+}
+.answer-button{
+  width: 85%;
+  font-size: 24px;
+  color: white;
+  background-color: darkmagenta;
+  border-radius: 15px;
+  padding: 5px;
+  border: 3px solid white;
+  cursor: pointer;
+  margin: 0 auto ;
+}
+.next-button{
+  width: 50%;
+  font-size: 24px;
+  color: white;
+  background-color: darkmagenta;
+  border-radius: 15px;
+  padding: 5px;
+  border: 3px solid white;
+  cursor: pointer;
+  margin: 30px auto;
+  display:flex;
+  justify-content: center;
+}
+.next-button:hover{
+  background-color: red;
+}
+.answer-button:hover{
+  background-color: blue;
+}
+button:focus{
+  outline: none;
+}
+.answer-button:active{
+  background-color: orange;
+}
+.completed{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: black;
+  margin: 40px auto;
+}
+.score-section{
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: darkblue;
+}
+.correct{
+  background-color: lime;
+}
+
+
+
+
